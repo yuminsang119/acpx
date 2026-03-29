@@ -1,0 +1,93 @@
+{
+  "description": "119 신고 오디오 입력 샘플 (테스트용 메타데이터)",
+  "samples": [
+    {
+      "id": "AUDIO-001",
+      "description": "스테레오 녹음 — 아파트 화재 (채널 분리 가능)",
+      "input": {
+        "audio": {
+          "filePath": "/recordings/2026-03-29/call-001.wav",
+          "format": "wav",
+          "sampleRate": 16000,
+          "channels": 2,
+          "channelMap": { "left": "operator", "right": "caller" }
+        },
+        "callId": "CALL-2026-03-29-001",
+        "receivedAt": "2026-03-29T14:32:00+09:00"
+      }
+    },
+    {
+      "id": "AUDIO-002",
+      "description": "모노 녹음 — 심정지 구급 (채널 분리 불가, 턴테이킹 분석 필요)",
+      "input": {
+        "audio": {
+          "filePath": "/recordings/2026-03-29/call-002.wav",
+          "format": "wav",
+          "sampleRate": 16000,
+          "channels": 1
+        },
+        "callId": "CALL-2026-03-29-002",
+        "receivedAt": "2026-03-29T15:10:00+09:00"
+      }
+    },
+    {
+      "id": "AUDIO-003",
+      "description": "MP3 압축 녹음 — 엘리베이터 구조",
+      "input": {
+        "audio": {
+          "filePath": "/recordings/2026-03-29/call-003.mp3",
+          "format": "mp3",
+          "sampleRate": 44100,
+          "channels": 1
+        },
+        "callId": "CALL-2026-03-29-003",
+        "receivedAt": "2026-03-29T16:45:00+09:00"
+      }
+    },
+    {
+      "id": "AUDIO-004",
+      "description": "스테레오 FLAC — 공장 폭발 복합 재난 (고품질)",
+      "input": {
+        "audio": {
+          "filePath": "/recordings/2026-03-29/call-004.flac",
+          "format": "flac",
+          "sampleRate": 48000,
+          "channels": 2,
+          "channelMap": { "left": "operator", "right": "caller" }
+        },
+        "callId": "CALL-2026-03-29-004",
+        "receivedAt": "2026-03-29T09:15:00+09:00"
+      }
+    },
+    {
+      "id": "STT-ONLY-001",
+      "description": "이미 STT된 세그먼트 입력 (화자분리만 필요)",
+      "input": {
+        "rawSegments": [
+          { "text": "119입니다. 무엇을 도와드릴까요?", "startSec": 0.0, "endSec": 2.5, "confidence": 0.95, "speakerId": "spk_0" },
+          { "text": "불이야 아파트에 불이 났어요!", "startSec": 3.0, "endSec": 5.2, "confidence": 0.88, "speakerId": "spk_1" },
+          { "text": "주소가 어떻게 되시나요?", "startSec": 5.8, "endSec": 7.5, "confidence": 0.96, "speakerId": "spk_0" },
+          { "text": "서울시 강남구 테헤란로 삼성아파트 5동 12층", "startSec": 8.0, "endSec": 11.5, "confidence": 0.82, "speakerId": "spk_1" },
+          { "text": "연기가 나고 있어요 불길이 보여요 빨리 와주세요", "startSec": 12.0, "endSec": 15.0, "confidence": 0.85, "speakerId": "spk_1" }
+        ],
+        "callId": "CALL-2026-03-29-STT-001",
+        "receivedAt": "2026-03-29T14:32:00+09:00"
+      }
+    },
+    {
+      "id": "STT-NO-SPEAKER-001",
+      "description": "화자태그 없는 STT 세그먼트 (턴테이킹 분석 필요)",
+      "input": {
+        "rawSegments": [
+          { "text": "119입니다.", "startSec": 0.0, "endSec": 1.2, "confidence": 0.95 },
+          { "text": "교통사고가 났어요 차가 뒤집혔어요", "startSec": 2.0, "endSec": 4.5, "confidence": 0.89 },
+          { "text": "위치를 말씀해주세요.", "startSec": 5.0, "endSec": 6.5, "confidence": 0.97 },
+          { "text": "대전시 유성구 대덕대로 톨게이트 앞이요", "startSec": 7.0, "endSec": 9.5, "confidence": 0.84 },
+          { "text": "전복된 차에 사람이 끼어있어요 의식은 있는데 골절인 것 같아요", "startSec": 10.0, "endSec": 14.0, "confidence": 0.79 }
+        ],
+        "callId": "CALL-2026-03-29-STT-002",
+        "receivedAt": "2026-03-29T11:20:00+09:00"
+      }
+    }
+  ]
+}
