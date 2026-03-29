@@ -1,0 +1,94 @@
+{
+  "calls": [
+    {
+      "id": "CALL-001",
+      "description": "아파트 화재 신고",
+      "transcript": [
+        { "speaker": "operator", "text": "119입니다. 무엇을 도와드릴까요?", "timestampSec": 0, "confidence": 0.95 },
+        { "speaker": "caller", "text": "불이야 불 불이야! 아파트에 불이 났어요!", "timestampSec": 2, "confidence": 0.88 },
+        { "speaker": "operator", "text": "주소가 어떻게 되시나요?", "timestampSec": 5, "confidence": 0.97 },
+        { "speaker": "caller", "text": "서울시 강남구 테헤란로 123 삼성아파트 5동 12층이요", "timestampSec": 7, "confidence": 0.82 },
+        { "speaker": "operator", "text": "어디서 불이 났나요?", "timestampSec": 12, "confidence": 0.96 },
+        { "speaker": "caller", "text": "옆집에서 연기가 나고 있어요 불길이 보여요 빨리 와주세요!", "timestampSec": 14, "confidence": 0.85 },
+        { "speaker": "operator", "text": "혹시 다친 분 계시나요?", "timestampSec": 19, "confidence": 0.95 },
+        { "speaker": "caller", "text": "모르겠어요 옆집에 할머니 혼자 사시는데 연락이 안돼요 빨리 와주세요 제발", "timestampSec": 21, "confidence": 0.78 }
+      ],
+      "callId": "CALL-2026-03-29-001",
+      "receivedAt": "2026-03-29T14:32:00+09:00"
+    },
+    {
+      "id": "CALL-002",
+      "description": "심정지 환자 구급 신고",
+      "transcript": [
+        { "speaker": "operator", "text": "119입니다.", "timestampSec": 0, "confidence": 0.96 },
+        { "speaker": "caller", "text": "사람이 쓰러졌어요! 의식이 없어요!", "timestampSec": 1, "confidence": 0.91 },
+        { "speaker": "operator", "text": "위치가 어디인가요?", "timestampSec": 3, "confidence": 0.97 },
+        { "speaker": "caller", "text": "서울시 서초구 반포동 세빛섬 근처 공원이요", "timestampSec": 5, "confidence": 0.85 },
+        { "speaker": "operator", "text": "환자 상태를 말씀해주세요. 숨은 쉬고 있나요?", "timestampSec": 8, "confidence": 0.95 },
+        { "speaker": "caller", "text": "숨을 안 쉬어요 심장이 안 뛰는 것 같아요 심정지인 것 같아요 빨리 와주세요 살려주세요", "timestampSec": 10, "confidence": 0.82 },
+        { "speaker": "operator", "text": "지금부터 심폐소생술을 안내해드리겠습니다. 환자를 딱딱한 바닥에 눕혀주세요.", "timestampSec": 16, "confidence": 0.94 },
+        { "speaker": "caller", "text": "네 네 알겠어요 빨리요", "timestampSec": 20, "confidence": 0.90 }
+      ],
+      "callId": "CALL-2026-03-29-002",
+      "receivedAt": "2026-03-29T15:10:00+09:00"
+    },
+    {
+      "id": "CALL-003",
+      "description": "엘리베이터 갇힘 구조 신고",
+      "transcript": [
+        { "speaker": "operator", "text": "119입니다. 무엇을 도와드릴까요?", "timestampSec": 0, "confidence": 0.96 },
+        { "speaker": "caller", "text": "엘리베이터에 갇혔어요 문이 안 열려요", "timestampSec": 2, "confidence": 0.92 },
+        { "speaker": "operator", "text": "건물 주소를 알려주세요.", "timestampSec": 5, "confidence": 0.97 },
+        { "speaker": "caller", "text": "인천시 남동구 구월동 뉴타운빌딩이요 한 7층 8층 사이에 멈춘 것 같아요", "timestampSec": 7, "confidence": 0.80 },
+        { "speaker": "operator", "text": "몇 분이 타고 계시나요?", "timestampSec": 12, "confidence": 0.96 },
+        { "speaker": "caller", "text": "저 혼자요 근데 좀 숨이 답답해요 빨리 좀 꺼내주세요", "timestampSec": 14, "confidence": 0.87 }
+      ],
+      "callId": "CALL-2026-03-29-003",
+      "receivedAt": "2026-03-29T16:45:00+09:00"
+    },
+    {
+      "id": "CALL-004",
+      "description": "공장 폭발 복합 재난",
+      "transcript": [
+        { "speaker": "operator", "text": "119입니다.", "timestampSec": 0, "confidence": 0.96 },
+        { "speaker": "caller", "text": "폭발이요 폭발! 공장에서 큰 폭발이 있었어요!", "timestampSec": 1, "confidence": 0.75 },
+        { "speaker": "operator", "text": "정확한 위치를 말씀해주세요.", "timestampSec": 4, "confidence": 0.96 },
+        { "speaker": "caller", "text": "경기도 화성시 동탄산업단지 화학공장이요 가스냄새도 나고 불길이 엄청나요", "timestampSec": 6, "confidence": 0.72 },
+        { "speaker": "operator", "text": "다친 분이 계시나요?", "timestampSec": 11, "confidence": 0.95 },
+        { "speaker": "caller", "text": "사람들이 쓰러져있어요 출혈이 심한 사람도 있고 위험해요 빨리 와주세요 큰일이에요", "timestampSec": 13, "confidence": 0.68 },
+        { "speaker": "operator", "text": "현장에서 안전한 곳으로 대피하세요.", "timestampSec": 18, "confidence": 0.94 },
+        { "speaker": "caller", "text": "건물 일부가 붕괴됐어요 갇혀있는 사람도 있는 것 같아요 사람살려", "timestampSec": 20, "confidence": 0.65 }
+      ],
+      "callId": "CALL-2026-03-29-004",
+      "receivedAt": "2026-03-29T09:15:00+09:00"
+    },
+    {
+      "id": "CALL-005",
+      "description": "교통사고 구급 신고",
+      "transcript": [
+        { "speaker": "operator", "text": "119입니다. 무엇을 도와드릴까요?", "timestampSec": 0, "confidence": 0.95 },
+        { "speaker": "caller", "text": "교통사고가 났어요 차가 뒤집혔어요", "timestampSec": 2, "confidence": 0.89 },
+        { "speaker": "operator", "text": "위치를 말씀해주세요.", "timestampSec": 4, "confidence": 0.97 },
+        { "speaker": "caller", "text": "대전시 유성구 대덕대로 톨게이트 앞이요", "timestampSec": 6, "confidence": 0.84 },
+        { "speaker": "operator", "text": "몇 대 사고인가요? 다친 분이 계시나요?", "timestampSec": 9, "confidence": 0.96 },
+        { "speaker": "caller", "text": "2대요 전복된 차에 사람이 끼어있어요 의식은 있는데 골절인 것 같아요 피도 나고", "timestampSec": 11, "confidence": 0.79 }
+      ],
+      "callId": "CALL-2026-03-29-005",
+      "receivedAt": "2026-03-29T11:20:00+09:00"
+    },
+    {
+      "id": "CALL-006",
+      "description": "노이즈가 많은 저품질 신고",
+      "transcript": [
+        { "speaker": "operator", "text": "119입니다.", "timestampSec": 0, "confidence": 0.95 },
+        { "speaker": "caller", "text": "어 저기 불 불이 어 나고", "timestampSec": 2, "confidence": 0.35 },
+        { "speaker": "operator", "text": "다시 한번 말씀해주시겠어요?", "timestampSec": 5, "confidence": 0.94 },
+        { "speaker": "caller", "text": "시장 시장에서 불이야 빨리", "timestampSec": 7, "confidence": 0.42 },
+        { "speaker": "operator", "text": "어느 시장인가요?", "timestampSec": 10, "confidence": 0.96 },
+        { "speaker": "caller", "text": "부산 자갈치 자갈치시장", "timestampSec": 12, "confidence": 0.38 }
+      ],
+      "callId": "CALL-2026-03-29-006",
+      "receivedAt": "2026-03-29T22:05:00+09:00"
+    }
+  ]
+}
